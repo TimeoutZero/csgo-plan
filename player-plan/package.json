@@ -14,9 +14,13 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
     "bootstrap": "^4.1.1",
+    "firebase": "^5.0.4",
+    "firebaseui": "^3.0.0",
     "sass-loader": "^7.0.2",
     "vue": "^2.5.2",
+    "vue-i18n": "^7.8.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

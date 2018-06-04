@@ -33,6 +33,21 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', {
       'optionalDependencies': ['test/unit/index.js']
     }],
+    'v-on': 0,
+    "comma-dangle": ["error", {
+      "arrays": "never",
+      "objects": "never",
+      "imports": "never",
+      "exports": "never",
+      "functions": "ignore"
+    }],
+
+    "linebreak-style": 0,
+
+    "space-before-blocks": ["error", { "functions": "never", "keywords": "never", "classes": "always" }],
+    "quotes": 0,
+    "no-unused-vars": 1,
+
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }
